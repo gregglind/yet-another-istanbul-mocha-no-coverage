@@ -1,0 +1,16 @@
+{
+  "name": "yet-another-istanbul-mocha-no-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul --hook-run-in-context cover _mocha -- --recursive"
+  },
+  "author": "Gregg Lind <gregg.lind@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  }
+}
